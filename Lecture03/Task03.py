@@ -12,8 +12,8 @@ if User_Sex == "female":
         print("Your hemoglobin level (g/L) is high.")
 
 #For adult males:
-if User_Sex == "male":
-    if User_Sex == "male" and 134 <= Value_hemoglobin <= 167:
+elif User_Sex == "male":
+    if 134 <= Value_hemoglobin <= 167:
         print("Your hemoglobin level (g/L) is normal.")
     elif Value_hemoglobin < 134:
         print("Your hemoglobin level (g/L) is low.")
